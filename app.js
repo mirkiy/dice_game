@@ -22,7 +22,9 @@ const getRoll = () => {
 
 const roll = (num) => {
   let rNumber = Math.floor(Math.random() * num) + 1;
-  return rNumber;
+  let n = 9855 + rNumber;
+  let char = "&#" + n + ';';
+  return rNumber + "" + char;
 };
 
 button.addEventListener("click", getRoll);

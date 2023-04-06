@@ -1,8 +1,7 @@
 .output {
-  width: 250px;
+  width: 450px;
   text-align: center;
   font-size: 2em;
-  margin-bottom: 25px;
 }
 .dicer {
   border: 1px solid black;
@@ -24,8 +23,22 @@
   display: inline-block;
   margin: 2px;
 }
+.viewer {
+    display: inline-block;
+    width: 211px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+.namer{
+    display: inline-block;
+    font-family:cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 button {
   margin-top: 10px;
   text-align: center;
-  width: 250px;
+  width: 450px;
 }
